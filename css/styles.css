@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainstart p {
+  font-family: "Cormorant SC", serif;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: "Cormorant SC", serif;
+}
+
+header nav ul li {
+  font-size: 18px;
+}
+
+.buscanos {
+  text-align: center;
+  margin-top: 1cm;
+}
+
+.textfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  text-align: center;
+}
+
+.redes {
+  font-size: 3rem;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.insta:hover {
+  color: red;
+}
+
+footer h2 {
+  color: red;
+}
+
+.titulo2 {
+  border: solid 2px;
+  color: red;
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+.subtitulo {
+  font-family: "Cormorant SC", serif;
+}
+
+.nav {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+}
+
+.tarj {
+  font-family: "Merriweather", serif;
+}
+
+.texto {
+  font-size: 2rem;
+  font-weight: 100;
+  font-family: "Cormorant SC", serif;
+}
+
+.subtitulo {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.titulo {
+  font-size: 4.5rem;
+  font-weight: 800;
+  font-family: "Merriweather", serif;
+}
+
+.muestraimg {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.titulo {
+  color: red;
+}
+
+.mainend h2 {
+  color: white;
+}
+
+.mainstart h2 {
+  background-color: black;
+  color: red;
+}
+
+footer h2 {
+  background-color: black;
+}
+
+p {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+footer {
+  background-image: url(../img/fondo3.jpg);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-image: url(../img/fondo3.jpg);
+}
+
+.boton, .botonCongelados, .botonPollo, .botonCerdo {
+  background-color: black;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 1px solid black;
+}
+.boton:hover, .botonCongelados:hover, .botonPollo:hover, .botonCerdo:hover {
+  filter: opacity(85%);
+  background-color: white;
+  color: black;
+}
+
+.botonCerdo {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+
+.botonPollo {
+  background-color: red;
+  color: white;
+}
+
+.botonCongelados {
+  background-color: red;
+  color: white;
+}
+
+.carousel-inner {
+  max-height: 30rem;
+}
+
+.bancos {
+  padding: 3px 150px;
+}
+
+.bancosimg {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "banco1 banco2 banco3" "banco4 banco5 banco6";
+}
+
+.bancosimg img {
+  width: 450px;
+  height: 300px;
+}
+
+.banco1 {
+  grid-area: banco1;
+}
+
+.banco2 {
+  grid-area: banco2;
+}
+
+.banco3 {
+  grid-area: banco3;
+}
+
+.banco4 {
+  grid-area: banco4;
+}
+
+.banco5 {
+  grid-area: banco5;
+}
+
+.banco6 {
+  grid-area: banco6;
+}
+
+#seccion1 {
+  background-image: url(../img/fondopagos.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.parala {
+  background: fixed no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.logo {
+  height: 10rem;
+  width: 8rem;
+  object-fit: cover;
+}
+
+.mainstart {
+  background-image: url(../img/fondomadera2.jpg);
+}
+
+.mainend {
+  background-image: url(../img/fondomadera2.jpg);
+}
+
+.fondo1 {
+  background-image: url(../img/fondomadera2.jpg);
+}
+
+.contact {
+  background-image: url(../img/fondomadera2.jpg);
+}
+
+img {
+  object-fit: cover;
+}
+
+.cardimg {
+  height: 300px;
+}
+
+.card-body {
+  height: 130px;
+}
+
+.card-bodyy {
+  height: 130px;
+}
+
+.card {
+  margin: 15px;
+  background-color: black;
+  border-radius: 30px;
+}
+
+.cardpages {
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+}
+
+.cardpages:hover {
+  box-shadow: 10px 20px 25px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+/*# sourceMappingURL=styles.css.map */

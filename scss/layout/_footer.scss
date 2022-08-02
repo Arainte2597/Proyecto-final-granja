@@ -1,0 +1,37 @@
+ footer{
+    background-image: url(../img/fondo3.jpg);
+
+ }
+ .footer{
+    
+     display: flex;
+     flex-direction: column;
+     
+     
+ }
+
+// footer{
+//      display: grid;
+//      grid-template-columns: repeat(3,1fr);
+//      grid-template-rows: repeat(3,1fr);
+//      grid-template-areas: "titulo titulo titulo"
+//      "face insta twitter"
+//      "texto texto texto";
+// }
+// .subtitulofooter{
+//      grid-area: titulo;
+// }
+
+// .face{
+//      grid-area: face;
+// }
+// .insta{
+//      grid-area: insta;
+// }
+// .twitter{
+//      grid-area: twitter;
+
+// }
+// .textfooter{
+//      grid-area: texto;
+// }

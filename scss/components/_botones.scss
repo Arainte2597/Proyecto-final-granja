@@ -1,0 +1,35 @@
+.boton{
+    background-color:black;
+    text-align: center;
+    color:white;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid black;
+
+    &:hover{
+        filter: opacity(85%);
+        background-color:white;
+        color: black;
+    }
+}
+
+.botonCerdo{
+    @extend .boton;
+    background-color: red ;
+    color: white;
+    font-size: 20px
+    
+}
+.botonPollo{
+    @extend .boton;
+    background-color: red;
+    color:white;
+}
+.botonCongelados{
+    @extend .boton;
+    background-color: red;
+    color: white;
+}
+
