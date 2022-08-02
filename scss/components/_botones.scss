@@ -19,17 +19,25 @@
     @extend .boton;
     background-color: red ;
     color: white;
-    font-size: 20px
+    font-size: 20px;
     
 }
 .botonPollo{
     @extend .boton;
     background-color: red;
     color:white;
+    font-size: 20px;
 }
 .botonCongelados{
     @extend .boton;
     background-color: red;
     color: white;
+    font-size: 20px;
+}
+.enviar{
+    @extend .boton;
+    background-color: red;
+    color: white;
+    font-size: 20px;
 }
 

@@ -15,10 +15,7 @@ $colores:(
     background-color: map-get($map:$colores , $key:secundario );
     color: map-get($map:$colores , $key:primario );
 }
-footer h2{
 
-    background-color: map-get($map:$colores , $key:secundario );
-}
 p{
     color: map-get($map:$colores , $key:terceario );
 }

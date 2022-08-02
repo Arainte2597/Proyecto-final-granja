@@ -64,6 +64,16 @@ footer h2 {
   font-family: "Merriweather", serif;
 }
 
+.titulospages {
+  font-family: "Cormorant SC", serif;
+  font-size: 1.5rem;
+}
+
+button, input, textarea, label {
+  font-family: "Cormorant SC", serif;
+  font-size: 20px;
+}
+
 .texto {
   font-size: 2rem;
   font-weight: 100;
@@ -100,10 +110,6 @@ footer h2 {
   color: red;
 }
 
-footer h2 {
-  background-color: black;
-}
-
 p {
   color: white;
 }
@@ -113,7 +119,7 @@ h5 {
 }
 
 footer {
-  background-image: url(../img/fondo3.jpg);
+  background-image: url(/img/fondofooter.jpg);
 }
 
 .footer {
@@ -125,7 +131,7 @@ header {
   background-image: url(../img/fondo3.jpg);
 }
 
-.boton, .botonCongelados, .botonPollo, .botonCerdo {
+.boton, .enviar, .botonCongelados, .botonPollo, .botonCerdo {
   background-color: black;
   text-align: center;
   color: white;
@@ -135,7 +141,7 @@ header {
   padding-right: 50px;
   border: 1px solid black;
 }
-.boton:hover, .botonCongelados:hover, .botonPollo:hover, .botonCerdo:hover {
+.boton:hover, .enviar:hover, .botonCongelados:hover, .botonPollo:hover, .botonCerdo:hover {
   filter: opacity(85%);
   background-color: white;
   color: black;
@@ -150,11 +156,19 @@ header {
 .botonPollo {
   background-color: red;
   color: white;
+  font-size: 20px;
 }
 
 .botonCongelados {
   background-color: red;
   color: white;
+  font-size: 20px;
+}
+
+.enviar {
+  background-color: red;
+  color: white;
+  font-size: 20px;
 }
 
 .carousel-inner {
