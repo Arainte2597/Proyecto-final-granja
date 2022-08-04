@@ -179,16 +179,18 @@ header {
   padding: 3px 150px;
 }
 
-.bancosimg {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "banco1 banco2 banco3" "banco4 banco5 banco6";
+@media (min-width: 1024px) {
+  .bancosimg {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "banco1 banco2 banco3 banco4 " "banco5 banco6 banco7 banco8 ";
+  }
 }
-
 .bancosimg img {
-  width: 450px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
 }
 
 .banco1 {
@@ -215,6 +217,26 @@ header {
   grid-area: banco6;
 }
 
+.banco7 {
+  grid-area: banco7;
+}
+
+.banco8 {
+  grid-area: banco8;
+}
+
+@media (max-width: 800px) {
+  .bancosimg {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "banco1 banco2" "banco3 banco4" "banco5 banco6" "banco7 banco8 ";
+  }
+}
+@media (max-width: 464px) {
+  .bancosimg {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "banco1 banco2 banco3 banco4 banco5 banco6 banco7 banco8";
+  }
+}
 #seccion1 {
   background-image: url(../img/fondopagos.jpg);
   display: flex;
