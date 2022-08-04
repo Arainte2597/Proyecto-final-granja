@@ -7,15 +7,12 @@ $colores:(
     color: map-get($map:$colores , $key:primario );
 }
 .mainend h2{
-    // background-color: map-get($map:$colores , $key:terceario );
     color: map-get($map:$colores , $key:terceario );
 }
 .mainstart h2{
-
     background-color: map-get($map:$colores , $key:secundario );
     color: map-get($map:$colores , $key:primario );
 }
-
 p{
     color: map-get($map:$colores , $key:terceario );
 }

@@ -169,10 +169,7 @@ header {
   background-color: red;
   color: white;
   font-size: 20px;
-}
-
-.carousel-inner {
-  max-height: 30rem;
+  padding: 15px;
 }
 
 .bancos {
@@ -279,7 +276,7 @@ img {
 }
 
 .cardimg {
-  height: 300px;
+  height: 250px;
 }
 
 .card-body {

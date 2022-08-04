@@ -1,31 +1,21 @@
 @mixin fontsize($size,$weight) {
-
     font-size: $size;
     font-weight: $weight;
-
-
-    
 }
 .texto{
     @include fontsize(2rem,100 );
     font-family: 'Cormorant SC', serif;
-    
-
 }
 .subtitulo{
     @include fontsize(2.5rem,500 );
-
 }
 .titulo{
     @include fontsize(4.5rem,800 );
     font-family: 'Merriweather', serif;
-    
 }
 @mixin tamaño ($height,$width) {
     height: $height;
     width: $width;
-
-    
 }
 .muestraimg{
    @include tamaño(300px,100% );

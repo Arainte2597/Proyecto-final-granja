@@ -1,6 +1,5 @@
 .bancos{
     padding: 3px 150px;
-   
 }
 @media(min-width:1024px){
     .bancosimg{
@@ -10,8 +9,7 @@
         grid-template-areas: 
         "banco1 banco2 banco3 banco4 "
         "banco5 banco6 banco7 banco8 ";
-    }
-    
+    } 
 }
 .bancosimg img{
     width: 150px;
@@ -45,8 +43,7 @@
 }
 
 @media(max-width:800px){
-    .bancosimg{
-        
+    .bancosimg{ 
         grid-template-columns: repeat(3,1fr);
         grid-template-areas: 
         "banco1 banco2"
@@ -61,9 +58,6 @@
         
         grid-template-columns: repeat(1,1fr);
         grid-template-areas: 
-        "banco1 banco2 banco3 banco4 banco5 banco6 banco7 banco8"
-        
-        ;
+        "banco1 banco2 banco3 banco4 banco5 banco6 banco7 banco8";
     }
-    
 }
